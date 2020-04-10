@@ -170,6 +170,10 @@ p{
 a {
     text-decoration: none;
 }
+a:hover{ 
+    text-decoration: underline;
+    font-weight: bold;
+}
 .topContainer{
     display: flex;
     justify-content: space-between;
@@ -200,10 +204,13 @@ body{
     margin: auto;
     color: black;
     font-size: .9rem;
+    transition: 1000ms;
 }
+
 .middle-content .boxes .box{
     width: 100px;
     font-weight: 300;
+    transition: 500ms;
 }
 .boxes > .box:nth-child(1){
     background: teal;
@@ -234,6 +241,11 @@ body{
 }
 .boxes > .box:nth-child(10){
     background: dodgerblue;
+}
+.box:hover {
+    box-shadow: 0 2px 20px rgba(0, 0, 0, .5);
+    text-shadow: 0 2px 1px rgba(0, 0, 0, .5);
+    font-size: 1.2rem;
 }
   
 .text-container{
