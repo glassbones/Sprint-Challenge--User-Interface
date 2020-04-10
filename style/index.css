@@ -144,3 +144,263 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/*-----------------------------------------------*/
+/*-------------MY CODE IS DOWN HERE--------------*/
+/*-----------------------------------------------*/
+/*-----------------------------------------------*/
+
+header{
+}
+h1, h2, h3, h4, h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-shadow: 1px 1px rgba(0, 0, 0, .1);
+}
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 450;
+    color: black;
+}
+p{
+    font-size: 1.0rem;
+    line-height: 1.4;
+    text-shadow: 1px 1px rgba(0, 0, 0, .05)
+}
+a {
+    text-decoration: none;
+}
+a:hover{ 
+    text-decoration: underline;
+    font-weight: bold;
+}
+.topContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 1.3rem 0 2.55rem;
+    //border: solid red;
+}
+body{
+    display: flex;
+    align-items: center;
+}
+.container{
+    height: 100vh;
+}
+#banner{
+    width: auto;
+    height: 153px;
+    background-image: url(\https://github.com/LambdaSchool/Sprint-Challenge--User-Interface/blob/master/assets/jumbo.jpg?raw=true\jumbo.jpg);
+    background-position: center;
+}
+#topNav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+#topNav a{
+    margin: auto;
+    color: black;
+    font-size: .9rem;
+    transition: 1000ms;
+}
+
+.middle-content .boxes .box{
+    width: 100px;
+    font-weight: 300;
+    transition: 500ms;
+}
+.boxes > .box:nth-child(1){
+    background: teal;
+}
+.boxes > .box:nth-child(2){
+    background: gold;
+}
+.boxes > .box:nth-child(3){
+    background: cadetblue;
+}
+.boxes > .box:nth-child(4){
+    background: coral;
+}
+.boxes > .box:nth-child(5){
+    background: crimson;
+}
+.boxes > .box:nth-child(6){
+    background: forestgreen;
+}
+.boxes > .box:nth-child(7){
+    background: darkorchid;
+}
+.boxes > .box:nth-child(8){
+    background: hotpink;
+}
+.boxes > .box:nth-child(9){
+    background: indigo;
+}
+.boxes > .box:nth-child(10){
+    background: dodgerblue;
+}
+.box:hover {
+    box-shadow: 0 2px 20px rgba(0, 0, 0, .5);
+    text-shadow: 0 2px 1px rgba(0, 0, 0, .5);
+    font-size: 1.2rem;
+}
+  
+.text-container{
+    margin-top: 1.3rem;
+}
+.bottom-content{
+    padding-top: 0rem;
+    margin-top: -1.3rem;
+    line-height: -1rem;
+    font-size: .951rem;
+}
+footer{
+    border: solid rgba(0, 0, 0, 0);
+    overflow: hidden;
+        bottom: 0;
+        width: 100%;
+        padding-bottom: 10%;
+        transition: 1000ms
+}
+footer nav a{
+    font-size: .9rem;
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 300;
+}
+@media only screen and (max-width: 730px){
+}
+
+@media only screen and (max-width: 600px){
+
+    html, body {
+        font-family: 'Rubik', sans-serif;
+        font-size: .9rem;
+    }
+    
+    h1, h2, h3, h4, h5 {
+        display: flex;
+        font-size: 16px;
+        margin-bottom: 10px;
+        font-weight: 400;
+        font-family: 'Rubik', sans-serif;
+        -webkit-transform:scale(1,1.2); /* Safari and Chrome */
+        -moz-transform:scale(1,1.2); /* Firefox */
+        -ms-transform:scale(1,1); /* IE 9 */
+        -o-transform:scale(1,1); /* Opera */
+        transform:scale(1,1.3); /* W3C */
+    
+    }
+    
+    p {
+        color: #686868;
+        font-size: 12px;
+        line-height: 1rem;
+        font-weight: 400;
+    }
+    body{
+        justify-content: flex-end;
+    }
+    .topContainer{
+        flex-direction: column;
+    }
+    .topContainer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 6%;
+        //border: solid red;
+    }
+    #topNav{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        padding-top: 15%;
+    }
+    #topNav a
+    {
+        font-family: 'Rubik', sans-serif;
+        color: #d8d8d8;
+        font-size: .9rem;
+        font-weight: 100;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 74%;
+        border: solid #d8d8d8 1px;
+        border-radius: 7px;
+        padding-top: 1.5%;
+        padding-bottom: 1.5%;
+
+    }
+    #topNav > a:nth-child(3){
+        display: none;
+    }
+    #topNav > a:nth-child(1){
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        border: solid #979797 1px;
+        color: #4a4a4a;
+        text-shadow: 0px 1px white ;
+        box-shadow: 0px 1px #d8d8d8 inset, 0px 1px 1px #4a4a4a;
+        background: rgb(181,181,181);
+        background: linear-gradient(0deg, rgba(181,181,181,1) 0%, rgba(216,216,216,1) 100%);bfbf;
+        
+    }
+    #banner{
+        margin-top: 0%;
+        scroll-padding-top: 0%;
+        height: 141px;
+    }
+    .top-content{
+        flex-direction: column;
+        align-items: center;  
+    }
+    .top-content .text-container {
+        width: 95%;
+        padding: 0 1%;
+        padding-bottom: 20px;  
+    }
+    .top-content > div:nth-child(1) {
+        margin-bottom: -4%;
+    }
+    .middle-content h2{
+        margin-left: 4%;
+    }
+    .middle-content .boxes {
+        flex-direction: column;
+        align-content: center;
+    }
+    .middle-content .boxes .box{
+        width: 115px;
+        height: 115px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        font-size: 1.2rem;
+    }
+    .bottom-content{
+        flex-direction: column;
+        align-items: center;  
+    }
+    .bottom-content .text-container {
+        width: 95%;
+        padding: 0 1%;
+        padding-bottom: 20px;  
+    }
+    footer nav a{
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+
+    /* I really do not like negative magins and weird / random
+     media breaks but I don't have a lot of time here lol*/
+    @media only screen and (max-width: 440px){
+        .top-content > div:nth-child(1) {
+            margin-bottom: -8%;
+        }
+    }
+}
